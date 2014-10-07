@@ -1,0 +1,7 @@
+commit: HEAD
+process_files: [Simonetta-Regular.ttf.ttx, Simonetta-Italic.ttf.ttx, Simonetta-BlackItalic.ttf.ttx,
+  Simonetta-Black.ttf.ttx, src/Simonetta-Regular.otf.ttx, src/Simonetta-Italic.otf.ttx,
+  src/Simonetta-BlackItalic.otf.ttx, src/Simonetta-Black.otf.ttx]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"
